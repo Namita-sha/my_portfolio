@@ -1,4 +1,4 @@
-// Projects data for portfolio
+
 export const projectsData = [
   {
     id: 1,
@@ -50,6 +50,19 @@ export const projectsData = [
     liveLink: 'https://movie-exploral-6g96.vercel.app/',
     githubLink: 'https://github.com/Namita-sha/movie_exploral.git',
     featured: false
+  },
+
+  {
+    id: 5,
+    title: 'Speed Maths App',
+    description:
+      'A fast-paced mental math trainer that improves calculation speed using timed quizzes, dynamic question generation, and difficulty levels.',
+    image:
+      'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Algorithms'],
+    liveLink: 'https://speed-maths-app.vercel.app/',
+    githubLink: 'https://github.com/Namita-sha/Speed_maths_app',
+    featured: true
   }
 ];
 

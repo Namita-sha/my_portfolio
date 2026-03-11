@@ -1,7 +1,19 @@
-
 export const projectsData = [
   {
     id: 1,
+    title: 'Jarvis — AI Interview Platform',
+    description:
+      'An AI-powered interview simulation platform that generates role-specific interview questions using the Gemini API and evaluates responses in real time. Features voice-based interviews, AI scoring with feedback, Firebase authentication, and persistent interview history storage. Built with modular React components and a responsive Tailwind dashboard for configuring interviews, conducting sessions, and reviewing performance insights.',
+    image:
+      'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800&q=80',
+    tags: ['React', 'JavaScript', 'Tailwind CSS', 'Firebase', 'AI', 'Gemini API'],
+    liveLink: 'https://jarvis-interview-platform.vercel.app/',
+    githubLink: 'https://github.com/Namita-sha/jarvis-interview-platform',
+    featured: true
+  },
+
+  {
+    id: 2,
     title: 'PEARL – Luxury Fashion Website',
     description:
       'A modern luxury fashion website featuring structured category pages, reusable product components, and responsive design built using React and Vite.',
@@ -14,7 +26,7 @@ export const projectsData = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: 'AI Resume Analyzer',
     description:
       'An AI-powered resume analysis tool that evaluates resumes, generates structured feedback, and provides improvement suggestions using modern AI tooling and serverless architecture.',
@@ -27,20 +39,20 @@ export const projectsData = [
   },
 
   {
-    id: 3,
-    title: 'Pathfinding Visualizer',
+    id: 4,
+    title: 'Speed Maths App',
     description:
-      'An interactive visualizer for popular pathfinding algorithms that demonstrates step-by-step execution of algorithms in a grid-based environment.',
+      'A fast-paced mental math trainer that improves calculation speed using timed quizzes, dynamic question generation, and difficulty levels.',
     image:
-      'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80',
-    tags: ['JavaScript', 'Algorithms', 'HTML', 'CSS'],
-    liveLink: 'https://namita-sha.github.io/Pathfinding_visualizer/',
-    githubLink: 'https://github.com/Namita-sha/Pathfinding_visualizer.git',
+      'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Algorithms'],
+    liveLink: 'https://speed-maths-app.vercel.app/',
+    githubLink: 'https://github.com/Namita-sha/Speed_maths_app',
     featured: false
   },
 
   {
-    id: 4,
+    id: 5,
     title: 'Movie Exploral',
     description:
       'A movie discovery web application that allows users to browse and explore movies using real-time API data with a clean and responsive interface.',
@@ -53,16 +65,16 @@ export const projectsData = [
   },
 
   {
-    id: 5,
-    title: 'Speed Maths App',
+    id: 6,
+    title: 'Pathfinding Visualizer',
     description:
-      'A fast-paced mental math trainer that improves calculation speed using timed quizzes, dynamic question generation, and difficulty levels.',
+      'An interactive visualizer for popular pathfinding algorithms that demonstrates step-by-step execution of algorithms in a grid-based environment.',
     image:
-      'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80',
-    tags: ['HTML', 'CSS', 'JavaScript', 'Algorithms'],
-    liveLink: 'https://speed-maths-app.vercel.app/',
-    githubLink: 'https://github.com/Namita-sha/Speed_maths_app',
-    featured: true
+      'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80',
+    tags: ['JavaScript', 'Algorithms', 'HTML', 'CSS'],
+    liveLink: 'https://namita-sha.github.io/Pathfinding_visualizer/',
+    githubLink: 'https://github.com/Namita-sha/Pathfinding_visualizer.git',
+    featured: false
   }
 ];
 

@@ -8,11 +8,11 @@ const About = () => {
       title: 'Frontend Development',
       description: 'React, JavaScript, Tailwind CSS, HTML, CSS'
     },
-    // {
-    //   icon: <Database size={32} />,
-    //   title: 'Backend Development',
-    //   description: 'Node.js, Express, MongoDB, SQL, REST APIs'
-    // },
+    {
+      icon: <Database size={32} />,
+      title: 'Backend & Database',
+      description: 'Node.js, Express, MongoDB, Firebase, REST APIs'
+    },
     {
       icon: <Cpu size={32} />,
       title: 'Core CS & Problem Solving',
@@ -21,7 +21,7 @@ const About = () => {
     {
       icon: <Rocket size={32} />,
       title: 'Tools & Deployment',
-      description: 'Git, GitHub, Vercel'
+      description: 'Git, GitHub, VS Code, Vercel'
     }
   ];
 

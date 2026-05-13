@@ -1,6 +1,25 @@
 export const projectsData = [
+ {
+  id: 1,
+  title: 'PEARL – Luxury Fashion Platform',
+  description:
+    'Built a full-stack MERN luxury fashion platform with secure authentication, responsive product collections, wishlist/cart management, and AI-powered styling recommendations using Gemini API.',
+  image:
+    'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800&q=80',
+  tags: [
+    'MongoDB',
+    'Express.js',
+    'React',
+    'Node.js',
+    'JWT Auth',
+    'Gemini API'
+  ],
+  liveLink: 'https://pearl-clothing-website.vercel.app/',
+  githubLink: 'https://github.com/Namita-sha/Pearl_clothing-website',
+  featured: true
+},
   {
-    id: 1,
+    id: 2,
     title: 'Jarvis — AI Interview Platform',
     description:
       'An AI-powered interview simulation platform that generates role-specific interview questions using the Gemini API and evaluates responses in real time. Features voice-based interviews, AI scoring with feedback, Firebase authentication, and persistent interview history storage. Built with modular React components and a responsive Tailwind dashboard for configuring interviews, conducting sessions, and reviewing performance insights.',
@@ -13,20 +32,29 @@ export const projectsData = [
   },
 
   {
-    id: 2,
-    title: 'PEARL – Luxury Fashion Website',
-    description:
-      'A modern luxury fashion website featuring structured category pages, reusable product components, and responsive design built using React and Vite.',
-    image:
-      'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800&q=80',
-    tags: ['React', 'Vite', 'JavaScript', 'CSS', 'Frontend'],
-    liveLink: 'https://pearlwebsite-lyart.vercel.app/',
-    githubLink: 'https://github.com/Namita-sha/Pearl_clothing-website',
-    featured: true
+   
+  id: 3,
+  title: 'Recallify – AI Study Assistant',
+  description:
+    'An AI-powered study tool that transforms raw notes into structured study material. Generate clean notes, interactive flashcards, and scored quizzes instantly using Gemini AI.',
+  image:
+    'https://images.unsplash.com/photo-1522202176988-66273c2fd55?w=800&q=80',
+  tags: [
+    'React',
+    'Vite',
+    'Tailwind CSS',
+    'Firebase',
+    'Gemini API',
+    'AI'
+  ],
+  liveLink: 'https://smart-notes-app-tawny.vercel.app',
+  githubLink: 'https://github.com/Namita-sha/smart_notes_app',
+  featured: true,
+
   },
 
   {
-    id: 3,
+    id: 4,
     title: 'AI Resume Analyzer',
     description:
       'An AI-powered resume analysis tool that evaluates resumes, generates structured feedback, and provides improvement suggestions using modern AI tooling and serverless architecture.',
@@ -39,7 +67,7 @@ export const projectsData = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: 'Speed Maths App',
     description:
       'A fast-paced mental math trainer that improves calculation speed using timed quizzes, dynamic question generation, and difficulty levels.',
@@ -52,7 +80,7 @@ export const projectsData = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: 'Movie Exploral',
     description:
       'A movie discovery web application that allows users to browse and explore movies using real-time API data with a clean and responsive interface.',
@@ -65,7 +93,7 @@ export const projectsData = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: 'Pathfinding Visualizer',
     description:
       'An interactive visualizer for popular pathfinding algorithms that demonstrates step-by-step execution of algorithms in a grid-based environment.',

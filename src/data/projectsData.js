@@ -5,7 +5,7 @@ export const projectsData = [
   description:
     'Built a full-stack MERN luxury fashion platform with secure authentication, responsive product collections, wishlist/cart management, and AI-powered styling recommendations using Gemini API.',
   image:
-    'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800&q=80',
+    '/images/pearl.png',
   tags: [
     'MongoDB',
     'Express.js',
@@ -24,7 +24,7 @@ export const projectsData = [
     description:
       'An AI-powered interview simulation platform that generates role-specific interview questions using the Gemini API and evaluates responses in real time. Features voice-based interviews, AI scoring with feedback, Firebase authentication, and persistent interview history storage. Built with modular React components and a responsive Tailwind dashboard for configuring interviews, conducting sessions, and reviewing performance insights.',
     image:
-      'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800&q=80',
+      '/images/jarvis.png',
     tags: ['React', 'JavaScript', 'Tailwind CSS', 'Firebase', 'AI', 'Gemini API'],
     liveLink: 'https://jarvis-interview-platform.vercel.app/',
     githubLink: 'https://github.com/Namita-sha/jarvis-interview-platform',
@@ -38,7 +38,7 @@ export const projectsData = [
   description:
     'An AI-powered study tool that transforms raw notes into structured study material. Generate clean notes, interactive flashcards, and scored quizzes instantly using Gemini AI.',
   image:
-    'https://images.unsplash.com/photo-1522202176988-66273c2fd55?w=800&q=80',
+     '/images/recallify.png',
   tags: [
     'React',
     'Vite',
